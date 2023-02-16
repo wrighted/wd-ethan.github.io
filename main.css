@@ -12,6 +12,7 @@ body {
   }
 body{
     font-family: monospace;
+    font-size: xx-large;
 } 
 ul {
     font-family: Helvetica;
@@ -81,7 +82,6 @@ li {
   
   /* Centered text */
   .centered {
-    text-size-adjust: 500;
     position: absolute;
     top: 50%;
     left: 50%;
