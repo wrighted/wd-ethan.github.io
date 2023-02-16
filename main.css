@@ -25,7 +25,7 @@ li {
 .btn {
     position: absolute;
     top: 20px;
-    left: 250px;
+    left: 20px;
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -46,3 +46,44 @@ li {
     --btnBg: var(--white);
     --btnFontColor: var(--black);
 }
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    text-size-adjust: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
