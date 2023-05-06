@@ -13,13 +13,22 @@ body {
 body{
     font-family: monospace;
     font-size: xx-large;
-} 
+}
 ul {
     font-family: Helvetica;
 }
 li {
+    color: #000000;
     list-style: circle;
-} 
+}
+h2{
+    color: rgb(35, 35, 131);
+    font-size: x-large;
+}
+h1{
+  color: white;
+  font-size: xx-large;
+}
 .list {
     list-style: square;
 }
