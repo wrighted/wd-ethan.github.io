@@ -2,26 +2,87 @@
 <html lang="en">
 
 <head>
+    <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.0/dist/showdown.min.js"></script>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wrighte</title>
-    <link rel="stylesheet" href="main.css">
+    <title>Broken</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+            background-color: #1a1a1a; /* Set dark background color */
+            color: #fff; /* Set light text color */
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            color: #fff;
+        }
+
+        th, td {
+            border: 1px solid #555; /* Set border color */
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333; /* Set header background color */
+        }
+
+        .column {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff; /* Adjust text color */
+        }
+
+        .background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            filter: blur(5px);
+        }
+    </style>
 </head>
 
-<div class="container">
-    <img src="/assets/photo-1476231682828-37e571bc172f.webp" alt="ForestBG" style="width:100%;">
+<body>
 
-    <div class="centered">
-        <h1>hannnah <3 vanessa <3 tiago</h1>
+    <div class="container">
+        <div class="column" id="column1"></div>
+        <img class="background-image" src="assets/photo-1476231682828-37e571bc172f.webp" alt="Background Image">
     </div>
-</div>
 
-<div class="container">
-    <div class="top-left">
-        <h2>Programming Languages</h2>
-        <li>C#, Python, Java</li>
-    </div>
-</div>
+    <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.0/dist/showdown.min.js"></script>
+    <script>
+        // Function to load and parse Markdown file
+        function loadMarkdownFile(filePath, targetColumn) {
+            fetch(filePath)
+                .then(response => response.text())
+                .then(markdownText => {
+                    const targetElement = document.getElementById(targetColumn);
+                    const converter = new showdown.Converter();
+                    const html = converter.makeHtml(markdownText);
+                    targetElement.innerHTML = html;
+                })
+                .catch(error => console.error('Error loading Markdown file:', error));
+        }
+
+        // Load Markdown content into columns
+        loadMarkdownFile('assets/resume.md', 'column1');
+    </script>
+
+</body>
 
 </html>
