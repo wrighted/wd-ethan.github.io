@@ -1,4 +1,3 @@
 # wd-ethan.github.io
-Website schtuff.
 
-Might be something cool in the future!
+Personal website. Hosted [here](wrighte.dev).

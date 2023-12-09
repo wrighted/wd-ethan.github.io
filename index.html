@@ -5,20 +5,50 @@
     <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.0/dist/showdown.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Broken</title>
+    <title>Ethan Wright - Software Developer</title>
     <style>
         body {
-            margin: 0;
             font-family: 'Arial', sans-serif;
-            overflow: hidden;
-            background-color: #1a1a1a; /* Set dark background color */
-            color: #fff; /* Set light text color */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #ffffff;
         }
 
         .container {
             display: flex;
             height: 100vh;
         }
+
+        .button-container {
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: #3498db;
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 150px;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+
+        #resume { background-color: rgba(44, 105, 107, 0.61); }
+        #github { background-color: rgba(49, 89, 143, 0.63); }
+        #linkedin { background-color: rgba(7, 22, 79, 0.62); }
 
         table {
             width: 100%;
@@ -58,6 +88,12 @@
 </head>
 
 <body>
+
+    <div class="button-container">
+        <a href="assets/resume.pdf" id="resume" class="button">Resume</a>
+        <a href="https://github.com/wd-ethan" id="github" class="button">GitHub</a>
+        <a href="https://www.linkedin.com/in/ethan-wright-a5611a208/" id="linkedin" class="button">LinkedIn</a>
+    </div>
 
     <div class="container">
         <div class="column" id="column1"></div>

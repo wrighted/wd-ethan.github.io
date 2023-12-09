@@ -1,26 +1,32 @@
 # Ethan Wright
+
 **Computer Science Student | Software Development | me@wrighte.dev**
 
 ---
 
 ## Summary
-Enthusiastic 4th year Computer Science student with a passion for software development and a solid foundation in programming concepts. Completed a 12-month co-op placement, gaining hands-on experience in real-world projects. Eager to contribute technical skills and a strong work ethic to innovative software projects.
+
+Enthusiastic 4th year Computer Science student with a passion for software development and
+a solid foundation in programming concepts. Completed a 12-month co-op placement, gaining
+hands-on experience in real-world projects. Eager to contribute technical skills, 
+object-oriented vision, and a strong work ethic to innovative software projects.
 
 ---
 
 ## Education
+
 **Computer Science, Bachelor of Science**
+
 - University of Victoria, Victoria, BC
 - Expected Graduation: December 2024
 - GPA: 7.86
 
 **Courses**
+
 - CSC 355: Digital Logic and Computer Organization
 - CSC 361: Computer Communications and Networks
 - CSC 402: Systems for Massive Data Sets
 - SENG 468: Software Systems Scalability
-- SENG 480: Quantum Algorithms
-
 
 ---
 
@@ -55,20 +61,22 @@ remote access.
 
 - Trusted to assist in the onboarding process for new developers.
 
-- Participated in code reviews and provided constructive feedback to peers in.
+- Participated in code reviews and provided constructive feedback to peers.
 
 ---
 
 ## Projects
 
 **bespoke**
+
 - Currently working on a team of 2 developing a daily journal app using **Swift** in **XCode**.
 - Technologies used: Swift UI, Firebase, Google O'Auth.
 - [bespoke](https://github.com/wd-ethan/be-written).
 
-**Graphics Assignment**
-- Created an original graphics scene as part of course completion.
-- Technologies used: Javascript, OpenGL.
+**Raytracer**
+
+- Produced an object-oriented and fully functional raytracer in **Java**.
+- Technologies used: Java, JAMA.
 - [Portfolio](https://wrighte.dev).
 
 ---
@@ -82,13 +90,23 @@ remote access.
 
 ---
 
+## References
+
+David Munroe | Software Manager | david.munroe@zetron.com
+
+Dave Jarvis | Senior Software Developer | dave.jarvis@zetron.com
+
+---
+
 ## Awards and Recognition
+
 - UVic Excellence in Math Scholarship
 - UVic Faculty of Engineering Dean's Entrance Scholarship
 
 ---
 
 ## Certifications
+
 - Standard First Aid
 
 ---
