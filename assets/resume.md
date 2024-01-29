@@ -19,7 +19,7 @@ object-oriented vision, and a strong work ethic to innovative software projects.
 
 - University of Victoria, Victoria, BC
 - Expected Graduation: December 2024
-- GPA: 7.86
+- GPA: 7.96
 
 **Courses**
 
@@ -34,34 +34,14 @@ object-oriented vision, and a strong work ethic to innovative software projects.
 
 **Co-op Software Engineer | Zetron | Victoria, BC | September 2022 - August 2023 (12 months)**
 
-- Collaborated within an **Agile Scrum** team of 5-8 developers participating in stand-up,
-backlog refinement, sprint review, sprint planning, etc. using **Azure Dev-Ops** to enhance
-the Cascade product.
+Collaborated on a team of 5-8 developers utilizing Agile Scrum methodology within Azure Dev-Ops, contributing to an incremental release of the Cascade product. Participated in stand-up, backlog refinement, sprint review, sprint planning, code reviews, as well as interviewing and onboarding new developers. Developed new features and in-house tools. Improved unit, integration, and automated end-to-end tests. Resolved bugs and wrote documentation.
 
-- Responsibilities included producing new features; developing in-house tools; improving unit,
-integration, and end-to-end testing; bug resolution; and documentation.
+- Contributed to and led the design, implementation, and testing of new customer facing features encompassing the full stack of Java, C++, and microcontrollers deployed on a dedicated Linux device.
+- Participated in the end-to-end development process of an in-house calibration tool within a C# .NET environment, from initial requirements gathering to the successful delivery of the finished product.
+- Designed and implemented end-to-end automated tests which included writing device drivers for various pieces of radio test equipment including spectrum analyzers, scopes, and power sensors using pytest and SCIPY VISA connections.
+- Led the development of a containerized CI/CD build process for a legacy product version using Docker and Azure Container Registry.
+- Routinely configured new devices and learned to troubleshoot firewall rules in a protected remote access network.
 
-- Contributed to and led the design, implementation, and testing of numerous new customer
-facing features encompassing the full stack of **Java**, **C++**, and microcontrollers deployed on a
-dedicated **Linux** device.
-
-- Participated in the end-to-end development process of an in-house calibration tool within a
-**C# .NET** environment, from initial requirements gathering to the successful delivery of the
-finished product.
-
-- Designed and implemented end-to-end automated tests which included writing device drivers
-for various pieces of radio test equipment including spectrum analyzers, scopes, and power
-sensors using **pytest** and **SCIPY VISA** connections.
-
-- Led the development of a containerized **CI/CD** build process for a legacy product version
-using **Docker** and **Azure Container Registry**.
-
-- Routinely configured new devices and troubleshoot firewall rules in a protected network for
-remote access.
-
-- Trusted to assist in the onboarding process for new developers.
-
-- Participated in code reviews and provided constructive feedback to peers.
 
 ---
 
@@ -83,18 +63,35 @@ remote access.
 
 ## Skills
 
-| Languages               | Tools                                 | Web        | Frameworks         | Databases       | OS                                                    |
-|-------------------------|---------------------------------------|------------|--------------------|-----------------|-------------------------------------------------------|
-| Java, C#, Python, C(++) | Jetbrains, Git, Azure Dev-Ops, VSCode | Javascript | pytest, JUnit, Moq | MySQL, Postgres | Linux (bash), Windows (cmd & powershell), macOS (zsh) |
+### Languages
 
+Java, C#, Python, C(++)
+
+### Tools
+
+Jetbrains, Git, Azure Dev-Ops, VSCode
+
+### Web
+
+Javascript
+
+### Frameworks
+
+pytest, JUnit, Moq
+
+### Databases
+
+MySQL, Postgres
+
+### OS
+
+Linux (bash), Windows (cmd & powershell), macOS (zsh)
 
 ---
 
 ## References
 
-David Munroe | Software Manager | david.munroe@zetron.com
-
-Dave Jarvis | Senior Software Developer | dave.jarvis@zetron.com
+Available upon request
 
 ---
 
@@ -116,8 +113,4 @@ Dave Jarvis | Senior Software Developer | dave.jarvis@zetron.com
 - Phone: (204) 805-0539
 - LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/ethan-wright-a5611a208/)
 - GitHub: [Your LinkedIn Profile](https://github.com/wd-ethan?preview=true)
-
----
-
-> [Download PDF Version](link_to_pdf_version.pdf)
 
